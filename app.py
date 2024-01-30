@@ -7,8 +7,7 @@ import numpy as np
 # Assume 'your_model' is a trained machine learning model
 # You need to replace this with your actual model
 # For demonstration purposes, I'm using a simple linear regression model
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import precision_score
+
 
 pipe = pickle.load(open('Ridgereg.pkl', 'rb'))
 df = pickle.load(open('df.pkl', 'rb'))
